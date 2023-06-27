@@ -5,7 +5,7 @@
   name="StatusGlow"
   author="Linc Station"
   version="1.0.0"
-  pluginURL="https://raw.githubusercontent.com/dkaser/unraid-tailscale/main/plugin/tailscale.plg"
+  pluginURL="https://raw.githubusercontent.com/atmshang/unraid-tailscale/trunk/plugin/status-glow.plg"
   launch="Settings/StatusGlow"
   support="https://www.lincplustech.com/"
 >
@@ -57,8 +57,8 @@ rm -f $(ls /boot/config/plugins/tailscale/*.tgz 2>/dev/null | grep -v 'tailscale
 
 echo ""
 echo "----------------------------------------------------"
-echo " tailscale has been installed."
-echo " Version: 2023.06.21a"
+echo " StatusGlow has been installed."
+echo " Version: 1.0.0"
 echo "----------------------------------------------------"
 echo ""
 ]]>
